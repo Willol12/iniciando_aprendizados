@@ -1,0 +1,28 @@
+/*existe 3 formas de delimitar uma string que são
+      por exemplo 
+      s1= "Javascript" aspas duplas
+      s2= 'Curso' aspas simples
+      s3= `Willian` crase
+      alert('Meu primeiro alerta');
+      confirm('Está gostando de js');
+
+      Identificadores:
+      Pode começar com letra, $ ou _
+      Não podem começar com números
+      É possível usar letras ou números
+      É possível usar acentos e símbolos
+      Não podem conter espaços
+      Não podem ser palavras reservadas
+      
+      Dicas para escolha de identificadores:
+      Letras minusculas e maisculas são diferentes no js pois é sensitivecase
+      Tente escolher nomes coerentes para as variáveis
+      Evite se tornar um 'programador alfabeto' ou um 'programador contador'
+      variaveis servem pra guardar dados 
+      String= "Google" 'Javascript' `Willian` , number= 1, 18, -12, 1.8, 8.0, -0.5
+      boolean= true or false
+      Dentre esses no number existe o Infinity ou o NaN
+      Existe também o null e o undefined
+      Object
+      Array
+      */

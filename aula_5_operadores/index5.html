@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    //Ordem de Precedencias nivel de importancia dos operadores aritmeticos
+    /*
+    1°()
+    2°**
+    3°* / % da esquerda para direita qual aparecer primeiro
+    4°+ -
+    */
+    //Simplificações
+    /*
+    Versão normal  versão simplicada
+    var n=3         var n=3                   
+    n = n+4         n  += 3
+    n = n-5         n  -= 5
+    n = n*4         n  *= 4
+    n = n/2         n  /= 2
+    n = n%5         n  %= 5 
+
+    Ordem Precedencia
+    ()
+    ** 
+    * / 
+    + - 
+    > < >= 
+    ! 
+    && 
+    || 
+    Ordem de importancia => Negação= ! Conjunção= && Disjunção= ||
+    
+    Operador Ternario é chamado assim pq tem 3 partes
+
+    teste ? true : false 
+    por exemplo
+    media=8
+    média >= 7 ? "Aprovado" : "Reprovado"
+    'Aprovado'
+    */
+var soma=5+2
+var sub=5-2*soma
+var mult=5*sub/20
+var div=5/mult*sub
+var resto=soma%2-mult*div
+var quadrado=5**soma+div
+console.log(soma, sub, mult, div, resto, quadrado);
+</script>
+</body>
+</html>

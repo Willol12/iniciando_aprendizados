@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./calc.js">
+  <link rel="stylesheet" href="./calc.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+</head>
+<body>
+  <h1>Calcular IMC</h1>
+  <input placeholder="Digite seu peso" type="number" name="peso" id="peso">
+  <input placeholder="Digite sua altura" type="number" name="altura" id="altura">
+  <input type="button" value="Dividir" id="botao" onclick="div()">
+  <div id="res">Resultado</div>
+<script>
+    function div(){
+      var peso = document.getElementById('peso')
+      var altura = document.getElementById('altura')
+      var res = document.getElementById('res')
+      var peso= Number(peso.value)
+      var altura= Number(altura.value)
+      var calc = peso / (altura*altura)
+      res.innerHTML = calc
+    }
+    
+    
+  </script>
+
+</body>
+</html>
